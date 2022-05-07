@@ -1,8 +1,8 @@
 let index = {
 	init: function() {
-		$("btn-save").on("click", ()=>{ //function(){} 대신 ()=>{} 사용하는 이유 this를 바인딩하기 위해
+		$("#btn-save").on("click", ()=>{ //function(){} 대신 ()=>{} 사용하는 이유 this를 바인딩하기 위해
 			this.save();
-		})
+		});
 	},
 	save: function() {
 		let data = {
@@ -23,7 +23,7 @@ let index = {
 			location.href = "/blog";
 		}).fail(function(error){
 			alert(JSON.stringify(error));
-		}); 
+		});
 	}
 }
 
