@@ -22,6 +22,7 @@ let index = {
 			dataType: "json" //요청을 서버로해서 응답이 왔을 때 JSON으로 왔으면 JS오브젝트로 변환 (기본적으로 문자열로 옴)
 		}).done(function(resp) {
 			alert("회원가입이 완료되었습니다.");
+			console.log(resp)
 			location.href = "/blog";
 		}).fail(function(error){
 			alert(JSON.stringify(error));
