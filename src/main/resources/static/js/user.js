@@ -10,7 +10,7 @@ let index = {
 			password: $("#password").val(),
 			email: $("#email").val(),
 		}
-		
+		//음
 		console.log(data);
 		//회원가입 수행 요청
 		// ajax 통신을 이용해서 3개의 데이터를 json으로 변경하여 insert 요청
