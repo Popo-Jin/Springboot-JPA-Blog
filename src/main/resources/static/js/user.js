@@ -9,7 +9,9 @@ let index = {
 			username: $("#username").val(),
 			password: $("#password").val(),
 			email: $("#email").val(),
-		};
+		}
+		
+		console.log(data);
 		//회원가입 수행 요청
 		// ajax 통신을 이용해서 3개의 데이터를 json으로 변경하여 insert 요청
 		$.ajax({
@@ -26,4 +28,6 @@ let index = {
 		});
 	}
 }
+
+index.init()
 
