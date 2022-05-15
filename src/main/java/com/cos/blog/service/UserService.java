@@ -20,4 +20,10 @@ public class UserService {
 			userRepository.save(user);
 
 	}
+	@Transactional
+	public void 로그인(User user) {
+
+			userRepository.login(user);
+
+	}
 }
