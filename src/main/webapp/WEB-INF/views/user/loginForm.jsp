@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR" pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%@ include file="../layout/header.jsp"%>
 
@@ -18,7 +18,7 @@
 		</div>
 		
 	</form>
-	<button type="btn-login" class="btn btn-primary">ทฮฑืภฮ</button>
+	<button id="btn-login" class="btn btn-primary">๋ก๊ทธ์ธ</button>
 
 </div>
 
